@@ -8,7 +8,7 @@ let answer = 0
 document.getElementById('button1').addEventListener('click', multiply)
 
 // Now, I write out what function 'multiply' does.
-function multiply() {
+function multiply () {
   numbOne = document.getElementById('text1').value
   numbTwo = document.getElementById('text2').value
   numbOne = parseInt(numbOne)
