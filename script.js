@@ -13,7 +13,7 @@ function multiply () {
   numbTwo = document.getElementById('text2').value
   numbOne = parseInt(numbOne)
   numbTwo = parseInt(numbTwo)
-  if (numbOne < 0 || numbTwo < 0) {
+  if (numbOne < 0) {
     for (counter = 0; counter > numbOne; counter--) {
       answer = answer - numbTwo
     }
